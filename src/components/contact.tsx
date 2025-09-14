@@ -1,5 +1,4 @@
 import { MapPin, Phone, Mail } from 'lucide-react';
-import Map from '@/components/map';
 
 export default function Contact() {
   const address = "Rua Ary Rolim Costa, 719 – Fazendinha Curitiba/PR – CEP 81330-180";
@@ -10,7 +9,7 @@ export default function Contact() {
     <section id="contact" className="py-12 md:py-20 bg-card">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-headline">Entre em Contato</h2>
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+        <div className="max-w-lg mx-auto">
           <div className="space-y-6">
             <div className="flex items-start gap-4">
               <div className="p-3 bg-primary/10 rounded-full">
@@ -46,10 +45,6 @@ export default function Contact() {
                 <a href="mailto:glcmecanica@gmail.com" className="text-muted-foreground hover:text-primary">{email}</a>
               </div>
             </div>
-          </div>
-          
-          <div className="rounded-lg overflow-hidden h-80 md:h-96 shadow-lg border">
-              <Map address={address} />
           </div>
         </div>
       </div>
