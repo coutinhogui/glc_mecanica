@@ -1,6 +1,6 @@
 import type {NextConfig} from 'next';
 
-const repo = 'glc-mecanica'; // Replace with your repository name
+const repo = 'glc_mecanica'; // Replace with your repository name
 const assetPrefix = `/${repo}/`;
 const basePath = `/${repo}`;
 
