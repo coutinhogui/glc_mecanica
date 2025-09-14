@@ -7,7 +7,7 @@ export default function Gallery() {
     PlaceHolderImages.find(p => p.id === 'gallery-2'),
     PlaceHolderImages.find(p => p.id === 'gallery-3'),
     PlaceHolderImages.find(p => p.id === 'gallery-4'),
-  ];
+  ].filter(Boolean);
 
   return (
     <section id="gallery" className="py-12 md:py-20 bg-background">
