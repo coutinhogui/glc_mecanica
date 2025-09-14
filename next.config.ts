@@ -1,11 +1,12 @@
 import type {NextConfig} from 'next';
 
-const repo = 'glc_mecanica'; // Replace with your repository name
-const assetPrefix = `/${repo}/`;
-const basePath = `/${repo}`;
+const repo = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? 'glc_mecanica';
+const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
+
+const assetPrefix = isGithubActions ? `/${repo}/` : undefined;
+const basePath = isGithubActions ? `/${repo}` : undefined;
 
 const nextConfig: NextConfig = {
-  /* config options here */
   output: 'export',
   assetPrefix: assetPrefix,
   basePath: basePath,

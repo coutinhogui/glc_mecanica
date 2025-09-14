@@ -1,5 +1,4 @@
 export function Logo({ className }: { className?: string }) {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   return (
     <div className={`inline-flex flex-col items-center justify-center gap-2 ${className}`}>
       <svg
