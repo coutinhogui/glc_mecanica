@@ -21,7 +21,7 @@ export default function About() {
             {aboutImage && (
               <Image
                 src={aboutImage.imageUrl}
-                alt="Mecânico trabalhando em um carro"
+                alt="Mecânico segurando ferramentas"
                 width={450}
                 height={450}
                 className="rounded-lg shadow-xl object-cover aspect-square"

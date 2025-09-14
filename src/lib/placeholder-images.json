@@ -22,31 +22,31 @@
       "id": "about-us",
       "description": "Image for the about us section",
       "imageUrl": "https://picsum.photos/seed/109/450/450",
-      "imageHint": "mechanic working"
+      "imageHint": "mechanic holding tools"
     },
     {
       "id": "gallery-1",
       "description": "Gallery image of the workshop",
       "imageUrl": "https://picsum.photos/seed/105/400/300",
-      "imageHint": "car workshop"
+      "imageHint": "car engine closeup"
     },
     {
       "id": "gallery-2",
       "description": "Gallery image of the workshop",
       "imageUrl": "https://picsum.photos/seed/106/400/300",
-      "imageHint": "car engine"
+      "imageHint": "mechanic hands"
     },
     {
       "id": "gallery-3",
       "description": "Gallery image of the workshop",
       "imageUrl": "https://picsum.photos/seed/107/400/300",
-      "imageHint": "mechanic tools"
+      "imageHint": "car repair tools"
     },
     {
       "id": "gallery-4",
       "description": "Gallery image of the workshop",
       "imageUrl": "https://picsum.photos/seed/108/400/300",
-      "imageHint": "car repair"
+      "imageHint": "car service"
     }
   ]
 }
