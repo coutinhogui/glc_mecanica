@@ -15,9 +15,7 @@ export default function Map({ address }: MapProps) {
     return (
       <div className="w-full h-full bg-muted flex items-center justify-center text-center p-4">
         <p className="text-muted-foreground">
-          A chave da API do Google Maps não foi configurada.
-          <br />
-          Por favor, adicione NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ao seu ambiente.
+          Mapa não disponível.
         </p>
       </div>
     );
