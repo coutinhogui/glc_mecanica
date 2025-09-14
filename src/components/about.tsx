@@ -21,10 +21,10 @@ export default function About() {
             {aboutImage && (
               <Image
                 src={aboutImage.imageUrl}
-                alt="Gustavo Lucas Coutinho, mecânico responsável"
+                alt="Mecânico trabalhando em um carro"
                 width={450}
                 height={450}
-                className="rounded-lg shadow-xl"
+                className="rounded-lg shadow-xl object-cover aspect-square"
                 data-ai-hint={aboutImage.imageHint}
               />
             )}
