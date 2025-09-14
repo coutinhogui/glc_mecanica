@@ -17,6 +17,36 @@
       "description": "Avatar for a customer testimonial",
       "imageUrl": "https://picsum.photos/seed/103/100/100",
       "imageHint": "person portrait"
+    },
+    {
+      "id": "about-us",
+      "description": "Image for the about us section",
+      "imageUrl": "https://picsum.photos/seed/104/450/450",
+      "imageHint": "mechanic portrait"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Gallery image of the workshop",
+      "imageUrl": "https://picsum.photos/seed/105/400/300",
+      "imageHint": "car workshop"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Gallery image of the workshop",
+      "imageUrl": "https://picsum.photos/seed/106/400/300",
+      "imageHint": "car engine"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Gallery image of the workshop",
+      "imageUrl": "https://picsum.photos/seed/107/400/300",
+      "imageHint": "mechanic tools"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Gallery image of the workshop",
+      "imageUrl": "https://picsum.photos/seed/108/400/300",
+      "imageHint": "car repair"
     }
   ]
 }
